@@ -1,0 +1,73 @@
+\documentclass{article}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\begin{document}
+
+\title{Mill Project: Process Plan}
+\author{John Bush}
+
+\maketitle
+
+\section*{Rough Stock}
+
+\begin{enumerate}
+	\item Select $1 \frac{3}{4}"$ square aluminum bar.
+\end{enumerate}
+
+\section*{Bandsaw}
+
+\begin{enumerate}[resume]
+	\item Cut bar to $2.125"$ length.
+\end{enumerate}
+
+\section*{Vertical Mill}
+
+\begin{enumerate}[resume]
+	\item Seat in vise with $1 \frac{1}{2}"$ parallels.
+
+	\item Face top with of material with $\frac{3}{4}"$ end mill.  Spindle speed should be 3000 RPM.
+
+	\item Face reference sides with endmill.
+
+	\item Mill remaining sides to final dimensions. ($2.000" \pm 0.010"$, $1.700" \pm 0.010"$)
+
+	\item Drill first hole with \#7 twist drill.
+
+	\item Countersink first hole. ($\phi = 0.300"$, $90^{\circ}$.)
+
+	\item Tap first hole. (1/4-20 UNC-1B, depth $0.500"$)
+
+	\item Drill second hole with K twist drill.
+
+	\item Counterbore second hole with $\phi = 0.406"$ counterbore to depth $0.281"$.
+
+	\item Reverse workpiece in vise and mill bottom to final dimension. ($1.250" \pm 0.010"$).
+
+	\item Deburr as needed.
+
+\end{enumerate}
+
+
+\newpage
+
+\begin{table}[ht]
+\centering
+\caption{Inspection Report}
+\renewcommand\arraystretch{3}
+\begin{tabular}{l | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} |}
+	Dimension & Value($"$) & Max($"$) & Min($"$) & Actual($"$) & In Tol? \\
+	\hline
+	Length & 2.000 & 2.010 & 1.990 & & \\
+	\hline
+	Width & 1.700 & 1.710 & 1.6990 && \\
+	\hline
+	Height & 1.250 & 1.260 & 1.240 && \\
+	\hline
+\end{tabular}
+\end{table}
+
+\end{document}
+
