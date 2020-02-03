@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{array}
+
+\begin{document}
+
+\title{Lathe Test Process Plan}
+\author{John Bush}
+
+\maketitle
+
+\section*{Rough Stock}
+
+\begin{enumerate}
+	\item Select 316L stainless steel round bar, $\phi = 4.0"$, $\text{length max/min} = 2'/8"$.
+\end{enumerate}
+
+\section*{Bandsaw}
+
+\begin{enumerate}[resume]
+	\item If necessary, cut off $2'$ of bar.
+\end{enumerate}
+
+\section*{Manual Lathe}
+
+\begin{enumerate}[resume]
+	\item Load in 3-jaw chuck with $6.25"$ stickout.
+
+	\item Set spindle speed to 200 RPM and feed rate to $2.0$ IPM.
+
+	\item Face material.
+
+	\item Drill center with $\frac{5}{8}"$ twist drill to depth $6.250"$.
+
+	\item Bore inner diameter to depth $2.000"$.  Bore to final inner diameter $\phi = 2.000" \pm 0.009"$.
+
+	\item Turn outer diameter $6.10"$ to flange's final outer diameter $\phi = 3.875"$.
+
+	\item Create shoulder at $5.625"$ and turn outer diameter to final outer diameter $\phi = 3.000" \pm 0.030"$.
+\end{enumerate}
+
+\section*{Bandsaw}
+
+\begin{enumerate}[resume]
+	\item Cut off part at widest shoulder to length of $6.100"$.
+\end{enumerate}
+
+\section*{Manual Lathe}
+
+\begin{enumerate}[resume]
+	\item Chuck into 3-jaw chuck and face cutoff end to final length $6.000" \pm 0.013"$.
+\end{enumerate}
+
+\section*{Layout}
+
+\begin{enumerate}[resume]
+	\item Mark ends with layout die and layout locations for drilling.  Scribe wider end with center head.  Clamp into V-block such that the scribed line is parallel to the surface plate.  Use surface guage to scribe a parallel line on the narrow end.  This creates a plane through the center of the part, allowing us to align drilled holes on opposing sides of the part.  Use hermaphrodite calipers to scribe narrow face $0.250"$ from inner diameter.  The radial line and bisecting lines mark the locations of two holes to drill.  Mark off the remaining holes with dividers set to length $1.768"$.  Similarly, on the wider face, use the calipers to scribe $0.325"$ from outer diameter.  Mark off remaining holes with dividers set to $2.475"$.  Thus four holes on each face should be radially aligned.
+
+	\item Use calipers and square to confirm hole positions are in accordance with part plan.
+\end{enumerate}
+
+\section*{Drill Press}
+
+\begin{enumerate}[resume]
+	\item Secure part in vise and drill holes in narrow face.  Set drill to 800 RPM.  Spot and drill with F ($0.257"$) twist drill to depth $1.250"$.  Countersink $90.0^{\circ}$ to $0.059"$ for countersink radius $\phi = 0.375"$.  Tap with 5/16-18 UNC - 1B to depth $0.750"$, (or $13.5$ turns). Repeat for all four holes.
+
+	\item Reverse part and secure in vise, and drill holes in wider face.  Set drill to 700 RPM.  Spot and drill through holes with K twist drill.  Repeat for all four holes.
+
+	\item Conduct additional deburring as needed. (Presumably this was conducted as needed throughout process.)
+
+\end{enumerate}
+
+\newpage
+
+\begin{table}[ht]
+	\centering
+	\caption{Inspection Report}
+	\renewcommand\arraystretch{3}
+	\begin{tabular}{l | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} |}
+		Dimension & Value & Max & Min & Actual & In Tol? \\
+		\hline
+		Length & $6.000"$ & $6.013"$ & $5.987"$ && \\
+		\hline
+		Outer Diameter & $3.000"$ & $3.030"$ & $2.970"$ && \\
+		\hline
+		Inner Diameter & $2.000"$ & $2.009"$ & $1.991"$ && \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\end{document}
+
