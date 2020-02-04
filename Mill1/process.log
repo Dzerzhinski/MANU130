@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.29)  3 FEB 2020 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.29)  3 FEB 2020 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,8 +99,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box31
 \enit@count@id=\count100
 \enitdp@description=\count101
-)
-No file process.aux.
+) (./process.aux)
 \openout1 = `process.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -124,8 +123,8 @@ Overfull \hbox (59.95537pt too wide) in paragraph at lines 60--70
 
 [2] (./process.aux) ) 
 Here is how much of TeX's memory you used:
- 1213 strings out of 492609
- 15384 string characters out of 6131462
+ 1215 strings out of 492609
+ 15408 string characters out of 6131462
  83189 words of memory out of 5000000
  5186 multiletter control sequences out of 15000+600000
  8408 words of font info for 31 fonts, out of 8000000 for 9000
@@ -139,7 +138,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on process.pdf (2 pages, 84755 bytes).
+Output written on process.pdf (2 pages, 84765 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
