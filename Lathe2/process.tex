@@ -1,0 +1,94 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{array}
+
+\begin{document}
+
+\title{MANU 130 Lathe Project 2 Process Plan}
+\author{John Bush}
+
+\maketitle
+
+\section*{Rough Stock}
+\begin{enumerate}
+	\item Select Aluminum rod, $\phi = 1.375"$, $\text{length} = 4.25"$.
+\end{enumerate}
+
+\section*{Bandsaw}
+\begin{enumerate}[resume]
+	\item If necessary, cut off $4.25"$ of material.
+\end{enumerate}
+
+\section*{Manual Lathe}
+\begin{enumerate}[resume]
+	\item Load into 3-jaw chuck.
+
+	\item Face material.
+
+	\item Drill through-hole in center with $\frac{1}{2}"$ twist drill.
+
+	\item Remove from 3-jaw chuck and prepare to turn between centers.
+
+	\item Turn outer diameter to final dimension. ($\phi = 1.313" \pm 0.010"$)
+
+	\item Transfer to 3-jaw chuck.
+
+	\item Face material.
+
+	\item Bore inner diameter to final dimension. ($\phi = 0.625" \pm 0.010"$, $\text{depth} = 0.500"$)
+
+	\item Reverse material in chuck to work opposite face.
+
+	\item Face to final length. ($4.000 \pm 0.010"$)
+
+	\item Bore inner diameter to final dimension. ($\phi = 0.625 \pm 0.010"$)
+\end{enumerate}
+
+\section*{Vertical Mill}
+
+\begin{enumerate}[resume]
+	\item Mount in vise with block.
+
+	\item Mill top of part to depth $0.061"$ with $\frac{5}{8}"$ end mill.
+
+	\item Flip over in vise to mill opposite surface to depth $0.061"$.
+
+	\item Clamp upright in vise.
+
+	\item Find center.  Holes are $0.339"$ on each axis ($x$ and $y$).
+
+	\item Drill hole with \#7 twist drill to depth $0.610$.
+
+	\item Countersink hole.  ($90^\circ$, $\text{depth} = 0.500"$ for $\phi = 0.300"$)
+
+	\item Tap hole.  ($\frac{1}{4}$-20 UNC-1B to $\text{depth} = 0.500"$, 10 turns.)
+
+	\item Repeat as needed for remaining three holes.
+
+	\item Deburr as needed.
+\end{enumerate}
+
+\newpage
+
+\begin{table}[ht]
+\centering
+\caption{Inspection Report}
+\renewcommand\arraystretch{3}
+\begin{tabular}{r | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} |}
+	Dimension & Value($"$) & Max($"$) & Min($"$) & Actual($"$) & In Tol? \\
+	\hline
+	Length & 4.000 & 4.010 & 3.990 & & \\
+	\hline
+	Inner Diameter 1 & 0.625 & 0.635 & 0.615 & & \\
+	\hline
+	Inner Diameter 2 & 0.625 & 0.635 & 0.615 & & \\
+	\hline
+	Outer Diameter & 1.313 & 1.323 & 1.303 & & \\
+	\hline
+\end{tabular}
+\end{table}
+
+\end{document}
+	
