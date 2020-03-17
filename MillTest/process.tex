@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\begin{document}
+
+\title{MANU 130 Mill Test Process Plan}
+\author{John Bush}
+
+\maketitle
+
+\section*{Rough Stock}
+\begin{enumerate}
+	\item Select $2"$ square Aluminum bar.
+\end{enumerate}
+
+\section*{Bandsaw}
+\begin{enumerate}[resume]
+	\item Cut bar to length $3.125"$.
+\end{enumerate}
+
+\section*{Vertical Mill}
+\begin{enumerate}[resume]
+	\item Set in vise with $1 \frac{1}{2}"$ parallels.
+
+	\item Face top of material with 4-flute, $\frac{3}{4}"$ end mill.  Spindle speed should be 3000 RPM, feed rate 60 IPM.
+
+	\item Face reference sides with endmill.
+
+	\item Mill remaining sides to final dimensions.  Length is $3.000" \pm 0.011"$.  Width is $1.875" \pm 0.009"$.
+
+	\item Drill center hole with U twist drill bit.  Drill at 2000 RPM.  Center hole is centered $1.500"$ from edge along length, $0.938"$ from edge along width.
+
+	\item Countersink center hole.  Use $90^\circ$ countersink bit to depth $0.066"$ for final countersink radius $\phi = 0.500"$.  Countersink speed should not exceed 400 RPM.
+
+	\item Tap center hole 7/16-14 UNC - 1B to depth $1.000"$. (14 turns)
+
+	\item Drill first corner hole ($0.375"$ from edges of reference corner) with $\frac{13}{32}"$ twist drill.  Drill at 2000 RPM.
+
+	\item Counterbore corner hole with $\phi = 0.625"$ counterbore to depth $0.406"$.  Counterbore speed should not exceed 650 RPM.
+
+	\item Drill and counterbore remaining corner holes.  Corner hole centers are $2.250"$ apart along axis of length and $1.125"$ apart along axis of width.
+
+	\item Reverse workpiece in vise to prepare bottom surface.  Mill bottom to final dimension.  ($1.500" \pm 0.007"$)
+
+	\item Deburr as needed.
+\end{enumerate}
+
+\newpage
+
+\begin{table}[ht]
+\centering
+\caption{Inspection Report}
+\renewcommand\arraystretch{3}
+\begin{tabular}{l | m{2cm} | m{2cm} | m{2cm} | m{2cm} | m{2cm} |}
+	Dimension & Value($"$) & Max($"$) & Min($"$) & Actual($"$) & In Tol? \\
+	\hline
+	Length & 3.000 & 3.011 & 2.989 && \\
+	\hline
+	Width & 1.875 & 1.884 & 1.866 && \\
+	\hline
+	Height & 1.500 & 1.507 & 1.493 && \\
+	\hline
+\end{tabular}
+\end{table}
+\end{document}
+
